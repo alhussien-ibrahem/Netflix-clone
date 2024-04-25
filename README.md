@@ -7,5 +7,5 @@ This project is a simple front-end implementation of a Netflix website using HTM
 - Basic layout similar to Netflix's website.
 
 ## How to Use
-- Open `index.html` in your web browser to view the website.
+- Open `netflix.html` in your web browser to view the website.
 
