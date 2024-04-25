@@ -1,0 +1,300 @@
+/* start header with landing */
+body{
+    background-color: black ;
+}
+.home {
+    height: 100vh ;
+    background-image: url(../images/1510470.jpg) ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+    z-index: -1 ;
+}
+.home .header{
+    width: 90% ;
+    margin: 0 auto ;
+    display: flex ;
+    flex-wrap: nowrap ;
+    align-items: center ;
+    justify-content: space-between ;
+}
+.home .header h1{
+    color: rgb(212, 5, 5) ;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 40px ;
+    margin: 10px 0 ;
+}
+.home .header form select{
+    background-color: black ;
+    border: 1px solid white ;
+    color: white ;
+    padding: 10px 20px ;
+    margin-left: 20px ;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    font-size: 16px ;
+}
+.home .header form select option{
+    background-color: white ;
+    color: black ;
+    font-size: 16px ;
+}
+.home .header form input{
+    background-color: red ;
+    color: white ;
+    font-size: 16px ;
+    padding: 10px 20px ;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+.home .landing{
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-evenly ;
+    color: white ;
+    margin-top: 100px ;
+}
+.home .landing h1{
+    font-size: 70px ;
+    margin: 10px auto ;
+    width: 600px ;
+}
+.home .landing .price{
+    font-size: 35px ;
+    font-weight: bold ;
+    margin: 10px auto ;
+}
+.home .landing .m-form{
+    display: flex ;
+    width: 80% ;
+    margin: 20px auto ;
+    padding: 6px;
+    align-items: center ;
+    border-radius: 20px ;
+    background-color: white ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    background: linear-gradient(270deg, rgb(39, 39, 111) 4%, rgb(1, 1, 88)  50%, red  );
+}
+.home .landing .m-form .form{
+    width: 100% ;
+    padding: 20px 30px ;
+    border-radius:  20px ;
+    -webkit-border-radius:  20px ;
+    -moz-border-radius:  20px ;
+    -ms-border-radius:  20px ;
+    -o-border-radius:  20px ;
+    background-color: black;
+}
+.home .landing .form p{
+    margin-top: 0 ;
+    font-size: 22px ;
+}
+.home .landing .form form .email{
+    padding: 15px  ;
+    margin-bottom: 10px;
+    width: 70%  ;
+    max-width: 450px ;
+    color: #e7e7e7fe ;
+    background-color: black ;
+    font-size: 18px ;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    border: 1px solid #f4f0f077;
+}
+.home .landing .form form .start{
+    width: 25%  ;
+    max-width: 200px ;
+    padding: 15px ;
+    font-size: 22px ;
+    font-weight: bold;
+    color: white ;
+    background-color: red ;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    border: none ;
+}
+/* end header with landing */
+/* start features */
+.features{
+    background-color: rgb(1, 1, 35) ;
+}
+.features .part{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    color: white ;
+    padding: 80px 50px ;
+    width: 85% ;
+    margin: 20px auto ;
+}
+hr{
+    width: 90% ;
+    margin: 10px auto ;
+    border-color: rgba(255, 255, 255, 0.348) ;
+}
+.features .part .text{
+    margin: 0 20px ;
+    flex: 1 ;
+}
+.features .part .text h1{
+    font-size: 50px ;
+}
+.features .part .text p{
+    font-size: 25px ;
+    line-height: 1.8 ;
+}
+.features .part .image {
+    width: 40% ;
+    flex: 1 ;
+}
+.features .part .image img{
+    width: 100% ;
+    height: 100% ;
+}
+@media(max-width:1200px){
+    .features .part .text h1{
+        font-size: 30px ;
+    }
+    .features .part .text p{
+        font-size: 18px ;
+    }
+}
+@media(max-width:767px){
+    .features .part{
+        flex-direction: column ;
+    }
+    .features .part .image{
+        width: 80% ;
+        margin-top: 30px ;
+    }
+    .features .part-two,
+    .features .part-four{
+        flex-direction: column-reverse;
+    }
+}
+/* end features */
+/* start quistions */ 
+.quistions{
+    width: 85% ;
+    margin: 0 auto ;
+    color: white ;
+    padding-top: 80px ;
+    padding-bottom: 80px ;
+}
+.quistions h1{
+    font-size: 50px ;
+}
+.quistions .content .quis{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    margin-bottom: 10px  ;
+    background-color: rgb(42, 42, 66) ;
+    padding: 0 20px ;
+    font-size: 25px ;
+}
+.quistions .content .form p{
+    font-size: 25px;
+}
+.quistions .content .form form{
+    display: flex ;
+    flex-wrap: wrap ;
+}
+.quistions .content .form .email{
+    padding: 10px ;
+    width: 500px ;
+    margin-left: 10px ;
+    margin-bottom: 10px ;
+    font-size: 20px ;
+    color: #dcd1d1b1;
+    border: 1px solid  #c5c2c2a7;
+    background-color: black ;
+    height: 40px ;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+.quistions .content .form .start{
+    padding: 20px ;
+    font-size: 30px ;
+    background-color: red ;
+    color: white ;
+    border: none ;
+    width: 100px ;
+    height: 61px ;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+/* end quistions */
+/* start contact */
+.contact{
+    padding-top: 80px ;
+    padding-bottom: 80px ;
+    width: 85% ;
+    margin: 0 auto ;
+}
+.contact h5 a{
+    font-size: 20px ;
+    color: #c7c4c4c2 ;
+}
+.contact .content{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    margin: 30px 0 ;
+}
+.contact .content .col ul {
+    list-style-type: none ;
+    margin-right: 0 ;
+    padding-right: 0 ;
+}
+.contact .content .col ul li{
+    margin-bottom: 20px ;
+    font-size: 18px ;
+}
+.contact .content .col ul li a{
+    color:  #c7c4c4c2 ;
+}
+.contact form select{
+    background-color: black ;
+    color: white ;
+    font-size: 20px ;
+    padding: 10px ;
+    border:1px solid rgba(207, 203, 203, 0.425);
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+}
+.contact form select option{
+    background-color: #66666634 ;
+    color: wheat ;
+}
+.contact pre{
+    color: #c7c4c4c2 ;
+    margin-top: 30px ;
+    font-size: 16px ;
+
+}
+/* end contact */
